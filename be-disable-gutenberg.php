@@ -1,7 +1,8 @@
 <?php
 /**
  * Plugin Name: Disable Gutenberg
- * Plugin URI: https://www.github.com/billerickson/be-disable-gutenberg/
+ * Plugin URI: https://www.github.com/billerickson/be-disable-gutenberg
+ * GitHub Plugin URI: https://www.github.com/billerickson/be-disable-gutenberg
  * Description: Turns off the new content editor in WordPress 5.0, code-named Gutenberg
  * Version:     1.0.0
  * Author:      Bill Erickson
@@ -22,5 +23,8 @@
  * @license    GPL-2.0+
  */
 
-// That's all there is to it!
+// Disable Gutenberg
 add_filter( 'gutenberg_can_edit_post_type', '__return_false' );
+
+// GitHub updater, in case updates are needed
+include( 'install-github-updater.php' );
