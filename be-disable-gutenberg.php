@@ -3,7 +3,7 @@
  * Plugin Name: Disable Gutenberg
  * Plugin URI: https://www.github.com/billerickson/be-disable-gutenberg
  * GitHub URI: billerickson/be-disable-gutenberg
- * Description: WordPress 5.0 will launch with a new content editor, named Gutenberg. This plugin lets you keep using the original content editor.
+ * Description: WordPress 5.0 will launch with a new content editor, Gutenberg. This plugin lets you keep using the original content editor.
  * Version:     1.0.0
  * Author:      Bill Erickson
  * Author URI:  https://www.billerickson.net
