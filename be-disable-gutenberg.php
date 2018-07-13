@@ -4,7 +4,7 @@
  * Plugin URI: https://www.github.com/billerickson/be-disable-gutenberg
  * GitHub URI: billerickson/be-disable-gutenberg
  * Description: WordPress 5.0 will launch with a new content editor, Gutenberg. This plugin lets you keep using the original content editor.
- * Version:     1.0.0
+ * Version:     1.1.0
  * Author:      Bill Erickson
  * Author URI:  https://www.billerickson.net
  *
@@ -25,6 +25,9 @@
 
 // Disable Gutenberg
 add_filter( 'gutenberg_can_edit_post_type', '__return_false' );
+
+// Disable "Try Gutenberg" panel
+remove_action( 'try_gutenberg_panel', 'wp_try_gutenberg_panel' );
 
 // GitHub updater, in case updates are needed
 include( dirname( __FILE__ ) . '/github-updater.php' );
