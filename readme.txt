@@ -2,8 +2,8 @@
 Contributors: billerickson
 Tags: gutenberg
 Requires at least: 3.0
-Tested up to: 4.9
-Version: 1.1.0
+Tested up to: 5.0
+Version: 1.2.0
 
 WordPress 5.0 will launch with a new content editor, Gutenberg. This plugin lets you keep using the original content editor.
 
@@ -23,6 +23,9 @@ With this plugin, you simply activate it and Gutenberg goes away. When you're re
 
 
 == Changelog ==
+
+**Version 1.2.0**
+* Use the new filter to disable in WordPress 5.0. [More information](https://github.com/billerickson/BE-Disable-Gutenberg/issues/1)
 
 **Version 1.1.0**
 * Disable the "Try Gutenberg" panel which will be added in WordPress 4.9.8
